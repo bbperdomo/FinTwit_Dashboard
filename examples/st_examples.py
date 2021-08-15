@@ -4,10 +4,10 @@ import numpy as np
 
 
 #Displaying text
-# st.title("This is the title")
-# st.header("A header")
+st.title("This is the title")
+st.header("A header")
 
-# st.write("some text")
+st.write("some text")
 
 #magic command examples
 # """
@@ -15,23 +15,23 @@ import numpy as np
 # ## sub header
 # """
 
-# a_dict = {
-#     "key":"value",
-# }
+a_dict = {
+    "key":"value",
+}
 
-# some_list = [1,2,3]
-# st.write(a_dict)
-# st.write(some_list)
+some_list = [1,2,3]
+st.write(a_dict)
+st.write(some_list)
 
-# #data frame example
-# df = pd.DataFrame(
-# np.random.randn(50, 20),
-# columns=('col %d' % i for i in range(20)))
-# st.dataframe(df)  # Same as st.write(df)
+#data frame example
+df = pd.DataFrame(
+np.random.randn(50, 20),
+columns=('col %d' % i for i in range(20)))
+st.dataframe(df)  # Same as st.write(df)
 
 #Image example
 
-#st.image("https://assets.coingecko.com/coins/images/1/large/bitcoin.png?")
+st.image("https://assets.coingecko.com/coins/images/1/large/bitcoin.png?")
 
 #select box
 st.sidebar.write("Options")
