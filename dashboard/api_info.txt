@@ -1,0 +1,3 @@
+{"consumer_key":"IMo3u5kjzp3gtVxAIhC8sQ3h8","consumer_secret":"E6LrzOtGN50VtayxG3toIyO4salMGfC4QIDkPw9BgYQSDZttOq",
+"access_token":"1425942381275328513-V99Da8AZeDqChqamjfMeTJOnKZ8T5p",
+"access_secret":"OCxTMctiaWh1AKHqYbdjwT1nocpBWHjZbZUhgEXp2Iw4u"}
