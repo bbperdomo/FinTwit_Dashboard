@@ -49,7 +49,7 @@ fintwit_users = [
 
 #this is the magic one liner that does 90% of the work
 #list comprehension to flex
-all_tweets = [api.user_timeline(screen_name=user_handle, count=2,lang='en',tweet_mode='extended') for user_handle in fintwit_users]
+all_tweets = [api.user_timeline(screen_name=user_handle, count=50,lang='en',tweet_mode='extended') for user_handle in fintwit_users]
 
 #uses regex to identify tweets containing a stock ticker
 pattern = "\$[a-zA-Z+]"
@@ -95,4 +95,4 @@ descending_df = tweet_df.sort_values(by=['Frequency'],ascending=False)
 #print(descending_df[0:5].to_string(index=False))
 
 #create top 5 dataframe
-top_df = descending_df[0:10]
+top_df = descending_df[0:15]

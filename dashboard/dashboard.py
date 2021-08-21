@@ -10,7 +10,7 @@ option = st.sidebar.selectbox("Chose a dashboard", ('FinTwit Pulse','Statistics'
 
 if option == 'FinTwit Pulse':
 
-    st.markdown('<p class="big-font">Hello World !!</p>', unsafe_allow_html=True)
-    st.header("Here are the most mentioned stocks among growth financial twitter users")
-    st.subheader("FinTwit Pulse")
+    st.markdown('<p class="big-font">FinTwit Pulse - Dashboard</p>', unsafe_allow_html=True)
+    st.header("Here are the most mentioned stocks among growth financial twitter users recently:")
+    st.subheader("Top 10 stocks")
     st.dataframe(top_df)
