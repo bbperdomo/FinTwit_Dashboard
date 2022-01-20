@@ -12,3 +12,4 @@ I achieved this by using Twitter's api, and a python library called Tweepy, whic
 * I used Pandas to store the stocks to more easily calculate important metrics, like which stock was the most mentioned.
 
 
+Finally, I deployed my project on streamlit, which is a platform that allows me to host my application, and display stock data tables.
